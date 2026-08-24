@@ -15,6 +15,7 @@ jobs:
           channel: stable
 
       - run: flutter pub get
+
       - run: flutter build apk --release
 
       - uses: actions/upload-artifact@v4
